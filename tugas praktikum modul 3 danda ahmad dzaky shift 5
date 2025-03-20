@@ -1,3 +1,4 @@
+print("=====MENGHITUNG VARIABEL ACAK POISOON=====")
 lambda_t = float(input("Masukkan nilai λt (λt > 0): "))
 M = int(input("Masukkan nilai M: "))
 e = 2.71828
@@ -7,6 +8,6 @@ while n <= M:
     if n > 1:
         faktorial *= n
     P_N_t_n = (e ** (-lambda_t)) * ((lambda_t ** n) / faktorial)
-    print(f"P(N(t) = {n}) = {P_N_t_n:.6f}") 
+    print(f"\nP(N(t) = {n}) = {P_N_t_n:.6f}") 
     n += 1
     
