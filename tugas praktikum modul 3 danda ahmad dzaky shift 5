@@ -1,4 +1,4 @@
-print("=====MENGHITUNG VARIABEL ACAK POISOON=====")
+print("=====MENGHITUNG VARIABEL ACAK POISSON=====")
 lambda_t = float(input("Masukkan nilai λt (λt > 0): "))
 M = int(input("Masukkan nilai M: "))
 e = 2.71828
